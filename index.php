@@ -6,7 +6,7 @@ author: Anu2biZ
 
 // Работа с API Telegram 
 error_reporting(E_ALL);
-$botToken = "193423711:AAGt-t9aBOUQDaHhS4Z0m9UTCoK53UoSBeg";
+$botToken = "token";
 $url = "https://api.telegram.org/bot".$botToken."/getupdates";
 $ch = curl_init();
 	curl_setopt($ch, CURLOPT_URL, $url);
